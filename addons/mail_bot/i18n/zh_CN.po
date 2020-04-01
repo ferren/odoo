@@ -85,7 +85,7 @@ msgstr "HTTP 路由"
 msgid ""
 "Hello,<br/>Odoo's chat helps employees collaborate efficiently. I'm here to "
 "help you discover its features.<br/><b>Try to send me an emoji :)</b>"
-msgstr "您好,<br/>Odoo的自助功能帮助员工高效协作，您可查看其他功能.<br/><b>请尝试输入笑脸符号看看效果</b>"
+msgstr "您好,<br/>小云机器人的自助功能帮助员工高效协作，您可查看其他功能.<br/><b>请尝试输入笑脸符号看看效果</b>"
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
