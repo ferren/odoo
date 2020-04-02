@@ -211,7 +211,7 @@ msgstr "悲伤的表情"
 #. module: website_livechat
 #: model:ir.actions.server,name:website_livechat.website_livechat_send_chat_request_action_server
 msgid "Send Chat Requests"
-msgstr ""
+msgstr "发送聊天请求"
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.website_visitor_view_form
@@ -253,12 +253,12 @@ msgstr "团队"
 #: code:addons/website_livechat/models/mail_channel.py:0
 #, python-format
 msgid "The visitor"
-msgstr ""
+msgstr "访客"
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_list_page
 msgid "There are no public livechat channels to show."
-msgstr ""
+msgstr "没有公共的频道"
 
 #. module: website_livechat
 #: model_terms:ir.ui.view,arch_db:website_livechat.channel_page
@@ -273,12 +273,12 @@ msgstr "访问者"
 #. module: website_livechat
 #: model:ir.actions.act_window,name:website_livechat.website_visitor_livechat_session_action
 msgid "Visitor's Sessions"
-msgstr ""
+msgstr "访客的会话"
 
 #. module: website_livechat
 #: model:ir.model.fields,field_description:website_livechat.field_website_visitor__mail_channel_ids
 msgid "Visitor's livechat channels"
-msgstr ""
+msgstr "访客的频道"
 
 #. module: website_livechat
 #: model:ir.ui.menu,name:website_livechat.website_livechat_visitor_menu
@@ -314,7 +314,7 @@ msgstr "网站说明"
 #: code:addons/website_livechat/models/mail_channel.py:0
 #, python-format
 msgid "has left the conversation."
-msgstr ""
+msgstr "关闭了此次会话。"
 
 #. module: website_livechat
 #: code:addons/website_livechat/models/mail_channel.py:0
