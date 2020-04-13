@@ -1,3 +1,6 @@
 [submodule "addons/website_wechat"]
 	path = addons/website_wechat
 	url = git@gitee.com:ferren/website_wechat.git
+[submodule "addons/theme_txtr"]
+	path = addons/theme_txtr
+	url = git@gitee.com:ferren/theme_txtr.git
