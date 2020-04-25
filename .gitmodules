@@ -4,3 +4,6 @@
 [submodule "addons/theme_txtr"]
 	path = addons/theme_txtr
 	url = git@gitee.com:ferren/theme_txtr.git
+[submodule "addons/physical"]
+	path = addons/physical
+	url = git@gitee.com:ferren/physical.git
