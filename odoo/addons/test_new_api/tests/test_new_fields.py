@@ -587,6 +587,33 @@ class TestFields(common.TransactionCase):
             for record in records:
                 self.check_monetary(record, amount, currency, 'multi write(amount)')
 
+    def test_20_monetary_opw_2223134(self):
+        """ test monetary fields with cache override """
+        model = self.env['test_new_api.monetary_order']
+        currency = self.env.ref('base.USD')
+
+        def check(value):
+            self.assertEqual(record.total, value)
+            record.flush()
+            self.cr.execute('SELECT total FROM test_new_api_monetary_order WHERE id=%s', [record.id])
+            [total] = self.cr.fetchone()
+            self.assertEqual(total, value)
+
+        # create, and compute amount
+        record = model.create({
+            'currency_id': currency.id,
+            'line_ids': [(0, 0, {'subtotal': 1.0})],
+        })
+        check(1.0)
+
+        # delete and add a line: the deletion of the line clears the cache, then
+        # the recomputation of 'total' must prefetch record.currency_id without
+        # screwing up the new value in cache
+        record.write({
+            'line_ids': [(2, record.line_ids.id), (0, 0, {'subtotal': 1.0})],
+        })
+        check(1.0)
+
     def test_21_date(self):
         """ test date fields """
         record = self.env['test_new_api.mixed'].create({})
@@ -1378,6 +1405,22 @@ class TestFields(common.TransactionCase):
         message = messages.create({'discussion': discussion.id})
         self.assertEqual(discussion.messages, messages + message)
         self.assertEqual(demo_discussion.messages, discussion.messages)
+
+    def test_71_relational_inverse(self):
+        """ Check the consistency of relational fields with inverse(s). """
+        move1 = self.env['test_new_api.move'].create({})
+        move2 = self.env['test_new_api.move'].create({})
+        line = self.env['test_new_api.move_line'].create({'move_id': move1.id})
+        line.flush()
+
+        self.env.cache.invalidate()
+        line.with_context(prefetch_fields=False).move_id
+
+        # Setting 'move_id' updates the one2many field that is based on it,
+        # which has a domain.  Here we check that evaluating the domain does not
+        # accidentally override 'move_id' (by prefetch).
+        line.move_id = move2
+        self.assertEqual(line.move_id, move2)
 
     def test_80_copy(self):
         Translations = self.env['ir.translation']
