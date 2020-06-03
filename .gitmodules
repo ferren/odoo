@@ -7,3 +7,6 @@
 [submodule "addons/physical"]
 	path = addons/physical
 	url = git@gitee.com:ferren/physical.git
+[submodule "addons/odooDingTalk"]
+	path = addons/odooDingTalk
+	url = git@github.com:ferren/odooDingTalk.git
