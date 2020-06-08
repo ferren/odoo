@@ -10,3 +10,6 @@
 [submodule "addons/odooDingTalk"]
 	path = addons/odooDingTalk
 	url = git@github.com:ferren/odooDingTalk.git
+[submodule "addons/wx_integration"]
+	path = addons/wx_integration
+	url = git@gitee.com:ferren/wx_integration.git
