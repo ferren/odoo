@@ -13,3 +13,6 @@
 [submodule "addons/wx_integration"]
 	path = addons/wx_integration
 	url = git@gitee.com:ferren/wx_integration.git
+[submodule "addons/power"]
+	path = addons/power
+	url = git@gitee.com:ferren/power.git
