@@ -6,6 +6,7 @@
 # Martin Trigaux, 2019
 # Attila Tatár <atta@nvm.ro>, 2020
 # Gplease Any <eugen.ionica@gmail.com>, 2020
+# Foldi Robert <foldirobert@nexterp.ro>, 2020
 # Dorin Hongu <dhongu@gmail.com>, 2020
 # Foldi Robert <foldirobert@nexterp.ro>, 2020
 # 
@@ -3948,6 +3949,8 @@ msgid ""
 "This menu gives you the full traceability of inventory operations on a specific product.\n"
 "                    You can filter on the product to see all the past movements for the product."
 msgstr ""
+"Acest meniu vă oferă trasabilitatea completă a operațiunilor de inventar pentru un anumit produs.\n"
+"                     Puteți filtra produsul pentru a vedea toate mișcările anterioare ale produsului."
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__production_location_id

@@ -4244,6 +4244,12 @@ msgid "Search Visitor"
 msgstr ""
 
 #. module: website
+#: model_terms:ir.ui.view,arch_db:website.website_visitor_page_view_search
+#: model_terms:ir.ui.view,arch_db:website.website_visitor_view_search
+msgid "Search Visitor"
+msgstr ""
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_search_box
 msgid "Search..."
 msgstr "Pretraži..."
@@ -5601,6 +5607,12 @@ msgstr "Šta želite da uradite?"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "White"
+msgstr ""
+
+#. module: website
+#: model:ir.model.fields,help:website.field_res_config_settings__website_domain
+#: model:ir.model.fields,help:website.field_website__domain
+msgid "Will be prefixed by http in canonical URLs if no scheme is specified"
 msgstr ""
 
 #. module: website
