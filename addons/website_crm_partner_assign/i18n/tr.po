@@ -18,6 +18,7 @@
 # Umur Akın <umura@projetgrup.com>, 2019
 # Ediz Duman <neps1192@gmail.com>, 2019
 # abc Def <hdogan1974@gmail.com>, 2020
+# Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2020
 # Murat Durmuş <muratd@projetgrup.com>, 2020
 # Ertuğrul Güreş <ertugrulg@projetgrup.com>, 2020
 # 
@@ -45,7 +46,7 @@ msgstr "# nın Fırsat"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunities
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunity
 msgid "&amp;times;"
-msgstr "&amp;kere;"
+msgstr "&amp;times;"
 
 #. module: website_crm_partner_assign
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_lead

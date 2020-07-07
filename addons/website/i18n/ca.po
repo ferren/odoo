@@ -4757,6 +4757,12 @@ msgid "The Google Analytics Client ID or Key you entered seems incorrect."
 msgstr "L'ID o clau de Google Analytics que has entrat sembla incorrecta"
 
 #. module: website
+#: code:addons/website/controllers/backend.py:0
+#, python-format
+msgid "The Google Analytics Client ID or Key you entered seems incorrect."
+msgstr "L'ID o clau de Google Analytics que has entrat sembla incorrecta"
+
+#. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:0
 #, python-format
@@ -5789,6 +5795,12 @@ msgstr "Que és el que vol fer?"
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "White"
 msgstr "Blanc"
+
+#. module: website
+#: model:ir.model.fields,help:website.field_res_config_settings__website_domain
+#: model:ir.model.fields,help:website.field_website__domain
+msgid "Will be prefixed by http in canonical URLs if no scheme is specified"
+msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel

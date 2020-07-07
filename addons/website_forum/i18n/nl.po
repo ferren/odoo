@@ -754,7 +754,7 @@ msgstr "Alle"
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_nav_header
 msgid "All Forums"
-msgstr "Alle forum"
+msgstr "Alle forums"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.header
