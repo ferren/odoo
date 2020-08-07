@@ -16,3 +16,6 @@
 [submodule "addons/power"]
 	path = addons/power
 	url = git@gitee.com:ferren/power.git
+[submodule "addons/website_youzan"]
+	path = addons/website_youzan
+	url = git@gitee.com:ferren/website_youzan.git
