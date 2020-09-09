@@ -156,7 +156,7 @@ msgstr "Linie extras bacă"
 #. module: account_bank_statement_import
 #: model:ir.model,name:account_bank_statement_import.model_account_setup_bank_manual_config
 msgid "Bank setup manual config"
-msgstr ""
+msgstr "Configurare manuală de configurare bancă"
 
 #. module: account_bank_statement_import
 #: model_terms:ir.ui.view,arch_db:account_bank_statement_import.account_bank_statement_import_journal_creation_view
@@ -359,6 +359,8 @@ msgid ""
 "If ticked, the accounting entry or invoice receives a hash as soon as it is "
 "posted and cannot be modified anymore."
 msgstr ""
+"Dacă este bifat, înregistrarea contabilă sau factura primește un hash "
+"imediat ce este înregistrată și nu mai poate fi modificată."
 
 #. module: account_bank_statement_import
 #: code:addons/account_bank_statement_import/account_journal.py:0
@@ -460,7 +462,7 @@ msgstr "Panou de bord Kanban"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__kanban_dashboard_graph
 msgid "Kanban Dashboard Graph"
-msgstr ""
+msgstr "Grafic Panou de Bord Kanban"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import____last_update
@@ -483,7 +485,7 @@ msgstr "Ultima actualizare pe"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__restrict_mode_hash_table
 msgid "Lock Posted Entries with Hash"
-msgstr ""
+msgstr "Blocați intrările postate cu Hash"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,field_description:account_bank_statement_import.field_account_bank_statement_import_journal_creation__loss_account_id
@@ -502,6 +504,9 @@ msgid ""
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
 "Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Odoo,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
+"Manual: plătit prin numerar, cec sau orice altă metodă în afara Odoo.\n"
+"Electronic: plătite automat prin intermediul unui dobânditor de plăți, solicitând o tranzacție pe un card salvat de client atunci când cumpără sau abonează online (jeton de plată).\n"
+"Depunerea lotului: încurcați mai multe verificări ale clienților simultan, generând un depozit pe care să îl transmiteți băncii dvs. Atunci când codificați extrasul bancar în Odoo, vi se recomandă să reconciliați tranzacția cu depozitul de lot. Activați această opțiune din setări."
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__outbound_payment_method_ids
@@ -772,7 +777,7 @@ msgstr "Încărcare extras bancă"
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__sequence
 msgid "Used to order Journals in the dashboard view"
-msgstr ""
+msgstr "Folosit pentru a comanda Jurnale în ecranul de bord"
 
 #. module: account_bank_statement_import
 #: model:ir.model.fields,help:account_bank_statement_import.field_account_bank_statement_import_journal_creation__loss_account_id
