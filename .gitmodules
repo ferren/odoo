@@ -25,3 +25,6 @@
 [submodule "addons/theme_sale_weapp"]
 	path = addons/theme_sale_weapp
 	url = git@gitee.com:ferren/theme_sale_weapp.git
+[submodule "addons/website_wecom"]
+	path = addons/website_wecom
+	url = git@gitee.com:ferren/website_wecom.git
