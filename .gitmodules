@@ -28,3 +28,6 @@
 [submodule "addons/website_wecom"]
 	path = addons/website_wecom
 	url = git@gitee.com:ferren/website_wecom.git
+[submodule "addons/wechat"]
+	path = addons/wechat
+	url = git@gitee.com:ferren/wechat.git
